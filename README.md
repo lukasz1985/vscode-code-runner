@@ -169,6 +169,14 @@ To set whether to show extra execution message like [Running] ... and [Done] ...
 }
 ```
 
+If run in teminal is enabled - indicates if the teminal window should be shown. If set to false the teminal will open but will be not displayed for viewing (you will have to switch to it manually, default is true):
+```json
+{
+    "code-runner.showTerminal": true
+}
+```
+
+
 To set whether to preserve focus on code editor after code run is triggered (default is true, the code editor will keep focus; when it is false, Terminal or Output Channel will take focus):
 ```json
 {
